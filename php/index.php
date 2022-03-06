@@ -1,5 +1,7 @@
 <?php
 
+
+die('aaaaa');
 require_once 'DataBase.php';
 
 $dataBase = new DataBase();
