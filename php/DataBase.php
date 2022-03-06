@@ -7,7 +7,7 @@ class DataBase
 
     public function connect()
     {
-        $mysqli = new mysqli('HerokuKursain', 'b67fe0a625343b', 'f158ca13', 'heroku_d1e343f1c933536');
+        $mysqli = new mysqli('us-cdbr-east-05.cleardb.net', 'b67fe0a625343b', 'f158ca13', 'heroku_d1e343f1c933536');
         if ($mysqli->connect_error) {
             die('Connect Error (' . mysqli_connect_errno() . ') '
                 . mysqli_connect_error());
