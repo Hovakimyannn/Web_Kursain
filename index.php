@@ -25,7 +25,7 @@
                     </div>
                 </form>
             </div>
-            <a href="http://your_domain/kursain/view">
+            <a href="https://limitless-earth-58194.herokuapp.com/view/">
                 <img src="images/logo-light.svg" alt="logo-light.svg" width="64" height="64">
             </a>
         </div>
