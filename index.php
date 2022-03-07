@@ -11,7 +11,7 @@
 <header class="header_box header">
     <header class="top_side">
         <div class="flex_wrapper">
-            <a href="https://limitless-earth-58194.herokuapp.com/view/search_page.html" class="button">Models</a>
+            <a href="view/search_page.php" class="button">Models</a>
             <a href="#" class="button">Services</a>
             <a href="#" class="button">Discover</a>
             <a href="#" class="button">Electromobility</a>
