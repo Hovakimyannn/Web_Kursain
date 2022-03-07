@@ -25,7 +25,7 @@
                     </div>
                 </form>
             </div>
-            <a href="https://limitless-earth-58194.herokuapp.com/view/">
+            <a href="./index.php">
                 <img src="images/logo-light.svg" alt="logo-light.svg" width="64" height="64">
             </a>
         </div>
