@@ -13,4 +13,4 @@ foreach ($models as $model) {
 $models = array_unique($arr);
 $dataBase->close();
 
-header('location: https://limitless-earth-58194.herokuapp.com/view/search_page.html' . '#' . $models[0]);
+header('location: ../view/search_page.php' . '#' . $models[0]);
