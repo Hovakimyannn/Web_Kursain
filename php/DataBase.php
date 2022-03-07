@@ -3,7 +3,7 @@
 class DataBase
 {
     protected mysqli_stmt $stmt;
-    protected $db;
+    protected mysqli $db;
 
     public function connect()
     {
