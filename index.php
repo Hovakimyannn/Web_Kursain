@@ -43,7 +43,7 @@
     </div>
     <section class="section_box">
         <div>
-            <i>By Harut Hovakimyan</i>
+            <i>By Harut Hovakimyan </i>
         </div>
         <div>
             <a class="color_black" href="#">Link</a>
