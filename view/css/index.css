@@ -44,7 +44,15 @@
     text-decoration: none;
     font-size: 24px;
     color: white;
-    padding: 10px;
+    min-width: 176px;
+}
+
+.back_to_top {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    color: gray;
+    font-size: 50px;
 }
 
 .search_underline{
@@ -114,7 +122,7 @@
 }
 
 .mouse_cursor_pointer{
-    cursor: pointer;
+    cursor: pointer !important;
 }
 
 .search_div {
@@ -200,9 +208,12 @@ main {
 }
 
 .nav_bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     position: sticky;
     top: 0;
-    height: 50px;
+    min-height: 50px;
     background-color: rgba(245, 245, 245, 0.9);
     border-bottom: 1px solid #bdbebd;
 }
