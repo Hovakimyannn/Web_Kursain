@@ -7,19 +7,24 @@
     <link rel="stylesheet" href="css/search_page.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body>
-<a href="#start">
-    <i class="fa-solid fa-circle-arrow-up back_to_top"></i>
-</a>
-<div class="body" id="start">
-    <header class="top_side header_box">
+<body class="grid_wrapper">
+<header class="header_box header" id="start">
+    <a href="#start">
+        <i class="fa-solid fa-circle-arrow-up back_to_top"></i>
+    </a>
+    <header class="top_side">
         <div class="flex_wrapper">
+            <a href="../view/search_page.php" class="button active">Models</a>
+            <a href="#" class="button">Services</a>
+            <a href="#" class="button">Discover</a>
+            <a href="../view/Electromobility.php" class="button">Electromobility</a>
             <div class="search_div">
                 <form action="../php/index.php" method="POST" class="search_form_flex">
                     <div>
                         <input type="text" name="search" class="search_box">
                         <button style="all: unset; padding: 5px">
-                            <i type="button" class="fa fa-search mouse_cursor_pointer" style="font-size: 24px;"></i>
+                            <i type="button" class="fa fa-search mouse_cursor_pointer"
+                               style="font-size: 24px; color: whitesmoke"></i>
                         </button>
                     </div>
                 </form>
@@ -29,6 +34,8 @@
             </a>
         </div>
     </header>
+</header>
+<div class="body">
     <nav class="nav_bar">
         <div class="pagination">
             <a href="#1-series" class="btn">1</a>
@@ -65,7 +72,7 @@
                 . "
                 <p>" . str_replace('_', ' ', $models[$i]['name']) . "<br>" . $models[$i]['fuel'] . "</p>
             </div>";
-            if ($models[$i]['model'][0] != $models[$i + 1]['model'][0]){
+            if ($models[$i]['model'][0] != $models[$i + 1]['model'][0]) {
                 echo $str1 . $s . $str2;
                 $s = "";
             }
