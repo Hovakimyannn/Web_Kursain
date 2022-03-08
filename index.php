@@ -11,7 +11,7 @@
 <header class="header_box header">
     <header class="top_side">
         <div class="flex_wrapper">
-            <a href="view/search_page.php" class="button">Models</a>
+            <a href="./view/search_page.php" class="button">Models</a>
             <a href="#" class="button">Services</a>
             <a href="#" class="button">Discover</a>
             <a href="#" class="button">Electromobility</a>
@@ -31,9 +31,27 @@
         </div>
     </header>
 </header>
-<div class="box content">
+<main>
+    <nav class="nav_bar">
+        <div class="pagination">
+            <button class="btn" id="1">1</button>
+            <button class="btn" id="2">2</button>
+            <button class="btn" id="3">3</button>
+            <button class="btn" id="4">4</button>
+            <button class="btn" id="5">5</button>
+            <button class="btn" id="6">6</button>
+            <button class="btn" id="7">7</button>
+            <button class="btn" id="8">8</button>
+            <button class="btn" id="X">X</button>
+            <button class="btn" id="Z">Z</button>
+            <button class="btn" id="M">M</button>
+            <button class="btn" id="I">I</button>
+        </div>
+    </nav>
+    <div>
 
-</div>
+    </div>
+</main>
 <footer class="footer_box">
     <div class="between_200_height">
     </div>
@@ -43,7 +61,7 @@
     </div>
     <section class="section_box">
         <div>
-            <i>By Harut Hovakimyan </i>
+            <i>By Harut Hovakimyan</i>
         </div>
         <div>
             <a class="color_black" href="#">Link</a>

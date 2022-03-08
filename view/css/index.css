@@ -169,3 +169,54 @@
     color: black;
     padding: 10px;
 }
+
+
+.main_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-top: 50px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.content_box {
+    width: 275px;
+    height: 260px;
+    margin: 0 10px;
+}
+
+.main_content_border {
+    border-bottom: 1px solid #bdbebd;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+.pagination button:hover, .active {
+    border-bottom: 5px solid #0096fb;
+}
+
+.nav_bar {
+    position: sticky;
+    top: 0;
+    height: 50px;
+    background-color: rgba(245, 245, 245, 0.9);
+    border-bottom: 1px solid #bdbebd;
+}
+
+.pagination {
+    margin: -5px 0;
+    display: inline-block;
+}
+
+.pagination > button {
+    all: unset;
+    color: black;
+    float: left;
+    padding: 16px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
