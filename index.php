@@ -62,7 +62,7 @@
             $s .= "
             
             <div class='content_box'>
-                            <a type='button' href='/".$models[$i]['model'].'#'.$models[$i]['name']."' class='content_box_button'>Show more</a>
+                            <a type='button' href='/view/".$models[$i]['model'].'.html#'.$models[$i]['name']."' class='content_box_button'>Show more</a>
             <img class='image' src='./images/" . $models[$i]['image'] . "' alt='" . $models[$i]['name'] . "'>
                 " .
                 (strpos($models[$i]['name'], 'M', 2) ? "<img src='./images/BMW_M_100px.png' alt='BMW_M_100px.png' height='15px' width='45px'>" :
