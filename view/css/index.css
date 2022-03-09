@@ -38,6 +38,10 @@
     position: absolute;
 }
 
+.content_box:hover .content_box_button{
+    visibility: visible;
+}
+
 .grid_wrapper {
     display: grid;
     grid-template-columns: 100%;
