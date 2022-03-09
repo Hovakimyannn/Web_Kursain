@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="grid_wrapper">
-<header class="header_box header">
+<header class="header_box header" id="start">
+    <a href="#start"><i class="fa-solid fa-circle-arrow-up back_to_top"></i></a>
     <header class="top_side">
         <div class="flex_wrapper">
             <a href="./view/search_page.php" class="button">Models</a>
@@ -18,7 +19,7 @@
             <div class="search_div">
                 <form action="php/index.php" method="POST" class="search_form_flex">
                     <div>
-                        <input type="text" name="search"  class="search_box">
+                        <input type="text" name="search" class="search_box">
                         <button style="all: unset; padding: 5px">
                             <i type="button" class="fa fa-search mouse_cursor_pointer" style="font-size: 24px;"></i>
                         </button>
@@ -34,18 +35,18 @@
 <main>
     <nav class="nav_bar">
         <div class="pagination">
-            <button class="btn" id="1">1</button>
-            <button class="btn" id="2">2</button>
-            <button class="btn" id="3">3</button>
-            <button class="btn" id="4">4</button>
-            <button class="btn" id="5">5</button>
-            <button class="btn" id="6">6</button>
-            <button class="btn" id="7">7</button>
-            <button class="btn" id="8">8</button>
-            <button class="btn" id="X">X</button>
-            <button class="btn" id="Z">Z</button>
-            <button class="btn" id="M">M</button>
-            <button class="btn" id="I">I</button>
+            <button class="btn mouse_cursor_pointer"  id="1">1</button>
+            <button class="btn mouse_cursor_pointer" id="2">2</button>
+            <button class="btn mouse_cursor_pointer" id="3">3</button>
+            <button class="btn mouse_cursor_pointer" id="4">4</button>
+            <button class="btn mouse_cursor_pointer" id="5">5</button>
+            <button class="btn mouse_cursor_pointer" id="6">6</button>
+            <button class="btn mouse_cursor_pointer" id="7">7</button>
+            <button class="btn mouse_cursor_pointer" id="8">8</button>
+            <button class="btn mouse_cursor_pointer" id="X">X</button>
+            <button class="btn mouse_cursor_pointer" id="Z">Z</button>
+            <button class="btn mouse_cursor_pointer" id="M">M</button>
+            <button class="btn mouse_cursor_pointer" id="I">I</button>
         </div>
     </nav>
     <div>
@@ -61,14 +62,15 @@
             $s .= "
             
             <div class='content_box'>
-                <img src='./images/" . $models[$i]['image'] . "' alt='" . $models[$i]['name'] . "' height='160' width='280'>
+                            <a type='button' href='#' class='content_box_button'>Show more</a>
+            <img class='image' src='./images/" . $models[$i]['image'] . "' alt='" . $models[$i]['name'] . "'>
                 " .
                 (strpos($models[$i]['name'], 'M', 2) ? "<img src='./images/BMW_M_100px.png' alt='BMW_M_100px.png' height='15px' width='45px'>" :
                     (strpos($models[$i]['name'], 'I') ? "<img src='./images/BMW_i_100px.png' alt='BMW_i_100px.png' height='15px' width='45px'>" : ""))
                 . "
                 <p>" . str_replace('_', ' ', $models[$i]['name']) . "<br>" . $models[$i]['fuel'] . "</p>
             </div>";
-            if ($models[$i]['model'][0] != $models[$i + 1]['model'][0]){
+            if ($models[$i]['model'][0] != $models[$i + 1]['model'][0]) {
                 echo $str1 . $s . $str2;
                 $s = "";
             }
@@ -96,6 +98,7 @@
     </section>
 </footer>
 </body>
+
 <script src="js/index.js" defer>
 
 </script>
