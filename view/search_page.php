@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link data-react-helmet="true" rel="apple-touch-icon" sizes="180x180" href="https://unsplash.com/apple-touch-icon.png">
     <meta charset="UTF-8">
     <meta name="Harutyun Hovakimyan">
     <title>All models</title>
@@ -9,9 +10,7 @@
 </head>
 <body class="grid_wrapper">
 <header class="header_box header" id="start">
-    <a href="#start">
-        <i class="fa-solid fa-circle-arrow-up back_to_top"></i>
-    </a>
+    <a href="#start"><i class="fa-solid fa-circle-arrow-up back_to_top"></i></a>
     <header class="top_side">
         <div class="flex_wrapper">
             <a href="../view/search_page.php" class="button active">Models</a>
@@ -65,7 +64,8 @@
             $s .= "
             
             <div class='content_box'>
-                <img src='../images/" . $models[$i]['image'] . "' alt='" . $models[$i]['name'] . "' height='160' width='280'>
+                            <a type='button' href='/".$models[$i]['model'].'#'.$models[$i]['name']."' class='content_box_button'>Show more</a>
+            <img class='image' src='../images/" . $models[$i]['image'] . "' alt='" . $models[$i]['name'] . "'>
                 " .
                 (strpos($models[$i]['name'], 'M', 2) ? "<img src='../images/BMW_M_100px.png' alt='BMW_M_100px.png' height='15px' width='45px'>" :
                     (strpos($models[$i]['name'], 'I') ? "<img src='../images/BMW_i_100px.png' alt='BMW_i_100px.png' height='15px' width='45px'>" : ""))

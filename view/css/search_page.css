@@ -28,6 +28,29 @@
     align-items:center;
 }
 
+.image{
+    height: 180px;
+    width: 280px;
+}
+
+.content_box_button{
+    visibility: hidden;
+    background-color: rgb(0 0 0 / 43%);
+    border-radius: 10px;
+    color: white;
+    padding: 53px 88px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 37px 0;
+    cursor: pointer;
+    position: absolute;
+}
+
+.content_box:hover .content_box_button{
+    visibility: visible;
+}
+
 .search_underline {
     width: 200px;
 }
