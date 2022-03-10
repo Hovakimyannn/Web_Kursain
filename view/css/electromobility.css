@@ -107,6 +107,7 @@
     all: unset;
     width: 290px;
     font-size: 24px;
+    color: white;
 }
 
 .search_form_flex {
