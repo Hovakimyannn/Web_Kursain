@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="./images/logo-light.svg">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="Harutyun Hovakimyan">
     <title>Harut's AutoShop</title>
     <link rel="stylesheet" href="view/css/index.css">

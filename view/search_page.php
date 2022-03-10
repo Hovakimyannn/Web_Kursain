@@ -3,6 +3,9 @@
 <head>
     <link data-react-helmet="true" rel="apple-touch-icon" sizes="180x180" href="https://unsplash.com/apple-touch-icon.png">
     <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="../images/logo-light.svg">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="Harutyun Hovakimyan">
     <title>All models</title>
     <link rel="stylesheet" href="css/search_page.css">
@@ -92,9 +95,6 @@
             <i>By Harut Hovakimyan</i>
         </div>
         <div>
-            <a class="button" href="#">Link</a>
-            <a class="button" href="#">Link</a>
-            <a class="button" href="#">Link</a>
             <a class="button" href="#">Link</a>
         </div>
     </section>

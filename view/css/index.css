@@ -5,6 +5,10 @@
     font-family: bmwTypeNextWeb,Arial,Helvetica,sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .content {
     grid-area: content;
     position: relative;
@@ -77,8 +81,16 @@
     position: fixed;
     bottom: 20px;
     right: 10px;
-    color: gray;
-    font-size: 50px;
+    color: #0257b2;
+    font-size: 30px;
+    background: #000;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex !important;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .search_underline{
