@@ -1,0 +1,37 @@
+.main_content_series{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+
+}
+
+p{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+    padding: 30px 30px;
+}
+
+.title{
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+
+.slider_arrow{
+    height: 100%;
+    width: 10%;
+    background-color: #4e555b;
+    background-size: 30px;
+}
+
+.mySlides{
+    width:100%;
+    border-radius: 5px;
+}
