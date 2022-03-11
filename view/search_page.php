@@ -18,7 +18,7 @@
             <a href="../view/search_page.php" class="button active">Models</a>
             <a href="#" class="button">Services</a>
             <a href="#" class="button">Discover</a>
-            <a href="../view/Electromobility.php" class="button">Electromobility</a>
+            <a href="../view/Electromobility.html" class="button">Electromobility</a>
             <div class="search_div">
                 <form action="../php/index.php" method="POST" class="search_form_flex">
                     <div>
