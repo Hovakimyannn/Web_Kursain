@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link data-react-helmet="true" rel="apple-touch-icon" sizes="180x180" href="https://unsplash.com/apple-touch-icon.png">
     <meta charset="UTF-8">
     <link rel="icon" type="image/x-icon" href="../images/logo-light.svg">
     <meta name="viewport"
