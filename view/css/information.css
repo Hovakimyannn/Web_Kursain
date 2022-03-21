@@ -5,6 +5,29 @@
 
 }
 
+.I4_main_content{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+    min-height: 1500px;
+    justify-content: space-evenly;
+}
+
+.img_float_left{
+    float: left;
+    width: 50%;
+    min-width: 300px;
+    padding-right: 2%;
+}
+
+.img_float_right{
+    float: right;
+    width: 50%;
+    min-width: 300px;
+    padding-left: 2%;
+}
+
 p{
     text-indent: 50px;
     text-align: justify;

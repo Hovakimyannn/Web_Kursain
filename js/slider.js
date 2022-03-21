@@ -1,3 +1,4 @@
+/*
 window.onload = function () {
     let xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
@@ -8,6 +9,7 @@ window.onload = function () {
     xhr.open("POST", "/php/get_all_name.php", true);
     xhr.send();
 }
+*/
 
 let myIndex = 0;
 carousel();
