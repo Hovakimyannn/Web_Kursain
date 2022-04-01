@@ -12,6 +12,7 @@
 </head>
 <body class="grid_wrapper">
 <header class="header_box header" id="start">
+    <img src="images/BMW-X6.jpg" height="auto" width="100%" />
     <a href="#start"><i class="fa fa-angle-double-up back_to_top"></i></a>
     <header class="top_side">
         <div class="flex_wrapper">
