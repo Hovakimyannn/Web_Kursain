@@ -25,7 +25,6 @@ html{
 .grid_wrapper {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 100vh;
     grid-template-areas:
     "header"
     "content"
@@ -102,9 +101,9 @@ html{
 }
 
 .header_box {
-    background-image: url("../../images/BMW-X6.jpg");
-    background-size: 100% 100vh;
-    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    position: relative;
     color: #fff;
 }
 
@@ -118,8 +117,12 @@ html{
     background-color: #999;
 }
 
-.top_side{
+.top_side {
     width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 50px;
 }
 

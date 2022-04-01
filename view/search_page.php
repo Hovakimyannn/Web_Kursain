@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/x-icon" href="../images/logo-light.svg">
+   <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="../../bmw/images/logo-light.svg">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="Harutyun Hovakimyan">
@@ -12,15 +12,16 @@
 </head>
 <body class="grid_wrapper">
 <header class="header_box header" id="start">
+    <img src="../../bmw/images/search_page_wallpaper.jpg" height="auto" width="100%" />
     <a href="#start"><i class="fa fa-angle-double-up back_to_top"></i></a>
     <header class="top_side">
         <div class="flex_wrapper">
-            <a href="../view/search_page.php" class="button active">Models</a>
+            <a href="page.php" class="button active">Models</a>
             <a href="#" class="button">Services</a>
             <a href="#" class="button">Discover</a>
-            <a href="../view/Electromobility.html" class="button">Electromobility</a>
+            <a href="Electromobility.html" class="button">Electromobility</a>
             <div class="search_div">
-                <form action="../php/index.php" method="POST" class="search_form_flex">
+                <form action="../../bmw/php/index.php" method="POST" class="search_form_flex">
                     <div>
                         <input type="text" name="search" class="search_box">
                         <button style="all: unset; padding: 5px">
@@ -30,8 +31,8 @@
                     </div>
                 </form>
             </div>
-            <a href="../index.php">
-                <img src="../images/logo-light.svg" alt="logo-light.svg" width="64" height="64">
+            <a href="../../bmw/index.php">
+                <img src="../../bmw/images/logo-light.svg" alt="logo-light.svg" width="64" height="64">
             </a>
         </div>
     </header>
@@ -69,7 +70,7 @@
                             <a type='button' href='/view/".$models[$i]['model'].'.html#'.$models[$i]['name']."' class='content_box_button'>Show more</a>
             <img class='image' src='../images/" . $models[$i]['image'] . "' alt='" . $models[$i]['name'] . "'>
                 " .
-                (strpos($models[$i]['name'], 'M', 2) ? "<img src='../images/BMW_M_100px.png' alt='BMW_M_100px.png' height='15px' width='45px'>" :
+                (strpos($models[$i]['name'], 'M', 2) ? "<img src='../../bmw/images/BMW_M_100px.png' alt='BMW_M_100px.png' height='15px' width='45px'>" :
                     (strpos($models[$i]['name'], 'I') ? "<img src='../images/BMW_i_100px.png' alt='BMW_i_100px.png' height='15px' width='45px'>" : ""))
                 . "
                 <p>" . str_replace('_', ' ', $models[$i]['name']) . "<br>" . $models[$i]['fuel'] . "</p>
@@ -99,7 +100,7 @@
     </section>
 </footer>
 </body>
-<script src="../js/search_page.js" defer>
+<script src="../../bmw/js/search_page.js" defer>
 
 </script>
 </html>
