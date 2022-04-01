@@ -16,7 +16,7 @@
     <a href="#start"><i class="fa fa-angle-double-up back_to_top"></i></a>
     <header class="top_side">
         <div class="flex_wrapper">
-            <a href="page.php" class="button active">Models</a>
+            <a href="search_page.php" class="button active">Models</a>
             <a href="#" class="button">Services</a>
             <a href="#" class="button">Discover</a>
             <a href="Electromobility.html" class="button">Electromobility</a>
