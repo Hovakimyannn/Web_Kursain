@@ -18,7 +18,7 @@
         <div class="flex_wrapper">
             <a href="search_page.php" class="button active">Models</a>
             <a href="#" class="button">Services</a>
-            <a href="#" class="button">Discover</a>
+            <a href="./Discover.html" class="button">Discover</a>
             <a href="Electromobility.html" class="button">Electromobility</a>
             <div class="search_div">
                 <form action="../php/index.php" method="POST" class="search_form_flex">
@@ -40,6 +40,7 @@
 <div class="body">
     <nav class="nav_bar">
         <div class="pagination">
+            <a class="hover_off">Series</a>
             <a href="#1-series" class="btn">1</a>
             <a href="#2-series" class="btn">2</a>
             <a href="#3-series" class="btn">3</a>

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/information.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 </head>
 <body class="grid_wrapper">
 <header class="header_box header">
@@ -19,7 +20,7 @@
         <div class="flex_wrapper">
             <a href="search_page.php" class="button">Models</a>
             <a href="#" class="button">Services</a>
-            <a href="#" class="button">Discover</a>
+            <a href="./Discover.html" class="button">Discover</a>
             <a href="Electromobility.html" class="button">Electromobility</a>
             <div class="search_div">
                 <form action="../php/index.php" method="POST" class="search_form_flex">
@@ -44,10 +45,10 @@
         <br>
         <p class="title">DESIGN YOUR BMW i3</p>
         <p style="text-indent: 0">BMW i3</p>
-        <div class="w3-content w3-section" style="max-width:1000px">
-            <img class="mySlides w3-animate-fading " src="../images/sliders/i_series_BMW_I3_slider_1.webp">
-            <img class="mySlides w3-animate-fading " src="../images/sliders/i_series_BMW_I3_slider_2.webp">
-            <img class="mySlides w3-animate-fading " src="../images/sliders/i_series_BMW_I3_slider_3.webp">
+        <div class="w3-content w3-section slide" style="max-width:1000px">
+            <img class="mySlides" src="../images/sliders/i_series_BMW_I3_slider_1.webp">
+            <img class="mySlides" src="../images/sliders/i_series_BMW_I3_slider_2.webp">
+            <img class="mySlides" src="../images/sliders/i_series_BMW_I3_slider_3.webp">
         </div>
     </div>
 </main>
@@ -70,6 +71,8 @@
         </div>
     </section>
 </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </body>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="../js/slider.js" defer></script>
 </html>
